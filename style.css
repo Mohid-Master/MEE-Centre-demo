@@ -51,7 +51,7 @@
     --box-shadow-color: rgba(155, 89, 182, 0.4);
 
     /* Vanta.js Specific Colors (JS reads these) */
-    --vanta-color1: 0x9b59b6;
+    --vanta-color1: 0x0;
 
     /* Dynamic Text Colors */
     --dynamic-text-bg-1: #20a7d8;
@@ -109,6 +109,7 @@ body {
     color: var(--text-color);
     background-color: var(--primary-bg);
     overflow-x: hidden;
+    width: 100vw;
     line-height: 1.6;
     transition: background-color 0.5s ease, color 0.5s ease;
 }
@@ -183,14 +184,15 @@ a:hover {
     position: fixed; /* Fixed so it stays on screen */
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     z-index: -1;
 }
 
 header {
     position: fixed;
-    width: 100%;
+    /* width: 100%; */
+    width: 100vw;
     background-color: var(--header-bg);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
@@ -595,6 +597,7 @@ footer {
     padding: 40px 20px 20px;
     text-align: center;
     border-top: 1px solid var(--card-border-color);
+        width: 100vw;
     
   --mask:
     radial-gradient(59.17px at 50% 81px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
@@ -661,17 +664,20 @@ footer p {
         top: 0;
         right: 0;
         height: 100vh;
-        width: 70%;
+        width: 0;
         max-width: 320px;
         background-color: var(--header-bg);
         flex-direction: column;
         align-items: center;
         justify-content: center;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in-out;
+        transition: all 0.5s ease;
         box-shadow: -5px 0 15px rgba(0,0,0,0.2);
+        overflow:hidden;
     }
-    .nav-links.active { transform: translateX(0); }
+    .nav-links.active { transform: translateX(0); 
+        width: 70vw;
+                      }
     .nav-links li { margin: 20px 0; }
     .hamburger { display: flex; }
     .theme-toggles { order: 1; margin-top: 40px; }
