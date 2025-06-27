@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+<meta name="apple-mobile-web-app-title" content="MEE Center" />
+<link rel="manifest" href="site.webmanifest" />
+    <!-- <title>MEE Center - Your Guide to the Future</title> -->
+   <!-- <link rel="icon" href="https://i.ibb.co/dLg59zT/mee-favicon.png" type="image/png"> -->
+    <!-- Placeholder Favicon -->
+
+<!-- In your index.html file -->
+<!-- <head> -->
+    <!-- ... other meta tags ... -->
+    <title>MEE Center - Education for Everyone</title>
+    <link rel="icon" href="https://i.ibb.co/dLg59zT/mee-favicon.png" type="image/png">
+
+    <!-- Google Fonts Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Consolidated Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Climate+Crisis&family=Open+Sans:wght@300;400;600;700&family=Poppins:wght@400;600;700;800&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- AOS (Animate On Scroll) CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Your Main Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+<!-- </head> -->
+</head>
+<body>
+    <div id="vanta-bg"></div>
+
+    <header>
+        <div class="navbar container">
+            <a href="#" class="logo">MEE Center</a>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#purpose">Purpose</a></li>
+                <li><a href="#notes-papers">Notes</a></li>
+                <li><a href="#teachers">Teachers</a></li>
+                <li class="desktop-only"><div class="theme-toggles">
+                    <button id="theme-dark-purple" aria-label="Dark Purple Theme"><i class="fas fa-moon"></i></button>
+                    <button id="theme-light" aria-label="Light Theme"><i class="fas fa-sun"></i></button>
+                    <button id="theme-red-black" aria-label="Red and Black Theme"><i class="fas fa-fire"></i></button>
+                </div></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <div class="hero-logo" data-aos="fade-up" data-aos-delay="200">
+                    <img src="./mee-logo.jpg" alt="MEE Center Official Logo">
+                </div>
+                <h1 data-aos="fade-up" data-aos-delay="400">MEE Center</h1>
+                <div class="tagline-container" data-aos="fade-up" data-aos-delay="600">
+                    <div class="typewriter-container">
+  <div class="typewriter-text" id="typewriter-text"></div>
+</div>
+                    <!-- <section class="animation">
+                        <div><div class="first"><div>Your Guide to the Future</div></div></div>
+                        <div><div class="second"><div>Education for Everyone</div></div></div>
+                        <div><div class="third"><div>Shaping Future Leaders</div></div></div>
+                        <div><div class="fourth"><div>Mastering English, Mastering Life</div></div></div>
+                    </section> -->
+                </div>
+                <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="800">
+                    <i class="fas fa-arrow-down fa-2x"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other sections like purpose, notes, teachers, achievements, cta, history, footer -->
+        <!-- ... (These sections are retained from the previous version but will now adapt to theme changes) ... -->
+        <section id="purpose" class="purpose-section">
+            <div class="container">
+                <h2 class="section-heading" data-aos="fade-up">Our Guiding Purpose</h2>
+                <div class="purpose-grid">
+                    <div class="purpose-item" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Ignite Potential</h3>
+                        <p>We illuminate the path to academic excellence, helping students discover their full capabilities.</p>
+                    </div>
+                    <div class="purpose-item" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Foster Growth</h3>
+                        <p>Through structured learning and continuous support, we ensure consistent progress and development.</p>
+                    </div>
+                    <div class="purpose-item" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Achieve Success</h3>
+                        <p>Our dedicated guidance transforms aspirations into tangible achievements, year after year.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="notes-papers" class="notes-papers-section">
+            <div class="container">
+                <h2 class="section-heading" data-aos="fade-up">Notes & Guess Papers</h2>
+                <div class="notes-grid">
+                    <div class="note-card" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fas fa-file-alt"></i>
+                        <h3>Class 11 New English Book Notes</h3>
+                        <p>Comprehensive notes covering all chapters and topics for the Sindh Board.</p>
+                        <a href="#" target="_blank" class="button">View Notes</a>
+                    </div>
+                    <div class="note-card" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-question-circle"></i>
+                        <h3>Guess Paper 2025 | Class 11</h3>
+                        <p>Highly anticipated guess papers for the upcoming Sindh Board examinations.</p>
+                        <a href="#" target="_blank" class="button">Watch Video</a>
+                    </div>
+                    <div class="note-card" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Solved Guess Papers 2026 Batch</h3>
+                        <p>Starting this year, access solved guess papers for comprehensive preparation.</p>
+                        <a href="#" class="button">Explore Solved Papers</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="teachers" class="teachers-section">
+            <div class="container">
+                <h2 class="section-heading" data-aos="fade-up">Our Guiding Faculty</h2>
+                <div class="teachers-grid">
+                    <div class="teacher-card" data-aos="fade-up" data-aos-delay="100" data-tilt data-tilt-scale="1.05">
+                        <img src="./mee-logo.jpg" alt="Sir Faiz Ur Rehman">
+                        <h3>Sir Faiz Ur Rehman</h3>
+                        <p>Chairman & Senior English Instructor,physics & mathematics teacher</p>
+                    </div>
+                    <div class="teacher-card" data-aos="fade-up" data-aos-delay="200" data-tilt data-tilt-scale="1.05">
+                        <img src="./mee-logo.jpg" alt="Teacher A">
+                        <h3>teacher 2</h3>
+                        <p>English Language Specialist</p>
+                    </div>
+                    <div class="teacher-card" data-aos="fade-up" data-aos-delay="300" data-tilt data-tilt-scale="1.05">
+                        <img src="./mee-logo.jpg" alt="Teacher B">
+                        <h3>Ms Aiman</h3>
+                        <p>Biology & Chemistry Lead</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="achievements" class="achievements-section">
+            <div class="container">
+                <h2 class="section-heading" data-aos="fade-up">Our Students, Our Pride</h2>
+                <div class="achievement-grid">
+                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="counter" data-count="50000">0</div>
+                        <p>Students Impacted</p>
+                    </div>
+                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="counter" data-count="95">0</div>
+                        <p>% Success Rate</p>
+                    </div>
+                    <div class="achievement-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="counter" data-count="1500">0</div>
+                        <p>Distinctions Achieved</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cta" class="cta-section">
+            <div class="container">
+                <h2 data-aos="fade-up">Ready to Launch Your Future?</h2>
+                <div class="rocket-animation" id="lottie-rocket" data-aos="zoom-in" data-aos-delay="200"></div>
+                <p data-aos="fade-up" data-aos-delay="400" style="font-size: 1.2em; margin-bottom: 40px;">Join thousands of successful students. Contact us today to begin your journey!</p>
+                <a href="https://wa.me/+923408057780?text=Hello%20ME%20English%20Center%2C%20I%27m%20interested%20in%20your%20courses." target="_blank" class="whatsapp-button" data-aos="zoom-in" data-aos-delay="600">
+                    <i class="fab fa-whatsapp"></i> Enroll via WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <section id="history" class="history-section">
+            <div class="container">
+                <h2 class="section-heading" data-aos="fade-up">Our Journey</h2>
+                <div class="timeline">
+                    <div class="timeline-item timeline-left" data-aos="fade-right">
+                        <div class="timeline-content">
+                            <h3>2015 - Inception</h3>
+                            <p>ME English Center founded with a vision to revolutionize English education in Pakistan.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item timeline-right" data-aos="fade-left">
+                        <div class="timeline-content">
+                            <h3>2017 - Online Expansion</h3>
+                            <p>Launched first online classes, reaching students beyond geographical boundaries.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item timeline-left" data-aos="fade-right">
+                        <div class="timeline-content">
+                            <h3>2020 - YouTube Milestone</h3>
+                            <p>Achieved 100K+ subscribers on YouTube, becoming a leading online resource.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item timeline-right" data-aos="fade-left">
+                        <div class="timeline-content">
+                            <h3>2023 - Digital Innovations</h3>
+                            <p>Introduced advanced digital learning tools and personalized student tracking systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://www.youtube.com/@meenglishcenter1171" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                <a href="https://web.facebook.com/p/ME-English-Center-100071452626318/?_rdc=1&_rdr#" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/ufaiz6896/?hl=en" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2025 MEE Center. All rights reserved.</p>
+            <p class="signature">Designed by <a href="https://i-am-mohid.netlify.app/" target="_blank">I-am-Mohid</a></p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/+923408057780" target="_blank" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- CDN JS Libraries -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.158.0/three.min.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script> -->
+<!-- <script>
+</script> -->
+<!-- At the very end of your <body> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.10.0/lottie.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js" defer></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.0/vanilla-tilt.min.js" defer></script>
+
+<!-- Your main script should be last -->
+<script src="script.js" defer></script>
+</body>
+</html>
