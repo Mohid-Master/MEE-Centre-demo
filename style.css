@@ -135,7 +135,10 @@ a {
 a:hover {
     color: var(--neon-accent);
 }
-
+main{
+        width: 100%;
+    overflow: hidden;
+    }
 .container {
     max-width: 1200px;
     margin: 0 auto;
